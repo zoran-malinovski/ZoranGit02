@@ -17,7 +17,18 @@ public class ZoranTest01 {
         driver.get("https://banzae.dev/");
         driver.manage().window().maximize();
 
+    }
 
+    @Test
+    public void ZoranSecondTest(){
+        System.out.println("Dobar den");
+
+        WebDriver driver;
+        System.setProperty("webdriver.chrome.driver", "C:\\Chrome Drivers\\chromedriver.exe");
+
+        driver = new ChromeDriver();
+        driver.get("https://dev.aleksandarak.mk/");
+        driver.manage().window().maximize();
     }
 
 
