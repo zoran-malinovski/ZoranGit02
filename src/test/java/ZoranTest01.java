@@ -44,4 +44,9 @@ public class ZoranTest01 {
         driver.manage().window().maximize();
     }
 
+    @Test
+    public void ZoranFourthTest(){
+        System.out.println("Fourth test");
+    }
+
 }
