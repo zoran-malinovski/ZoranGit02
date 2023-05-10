@@ -34,7 +34,7 @@ public class ZoranTest01 {
 
     @Test
     public void ZoranThirdTest(){
-        System.out.println("Kako si?");
+        System.out.println("Kako si Malinovski");
 
         WebDriver driver;
         System.setProperty("webdriver.chrome.driver", "C:\\Chrome Drivers\\chromedriver.exe");
