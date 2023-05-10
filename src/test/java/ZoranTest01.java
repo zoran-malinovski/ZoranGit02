@@ -9,6 +9,7 @@ public class ZoranTest01 {
     @Test
     public void ZoranFirstTest(){
         System.out.println("Helloooo!!!");
+        System.out.println("Olaa ke pasa");
 
         WebDriver driver;
         System.setProperty("webdriver.chrome.driver", "C:\\Chrome Drivers\\chromedriver.exe");
